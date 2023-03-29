@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0
+    }
+
+    video {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      filter: invert(100%) brightness(115%) opacity(30%);
+    }
+
+    .container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 6rem;
+      color: black;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: -0.15rem;
+    }
+
+    span {
+      font-weight: 400;
+      display: block;
+      font-size: 3rem;
+      letter-spacing: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <video src="AdobeStock_384563256_Video_HD_Preview.mov" autoplay loop muted></video>
+  <div class="container">
+    <div>
+      <h1>Lorem Ipsum Dolor Sit <span>Consectetur Adipiscing Elit</span></h1>
+    </div>
+  </div>
+</body>
+
+</html>
